@@ -1,0 +1,159 @@
+
+@font-face {
+    font-family: 'roboto regular';
+    src: url(/font/Roboto-Regular.ttf format(ttf));
+    font-style: normal;
+    font-weight: 400;
+}
+#bg-img {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../img/bg.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* navbar section */
+.navbar{
+    width: 0 auto;
+    margin: 10px; 
+}
+.nav-link ul{
+    list-style: none;
+    padding: 10px;
+}
+
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.icon-left {
+    margin-left: 15px;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(182, 34, 34);
+}
+.active{
+    background-color: rgb(21, 22, 22);
+}
+.icon1{
+    width: 500px;
+    height: 300px;
+    left: 70%;
+    top: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: #eee;
+}
+h5 {
+    color: white;
+}
+.p-one {
+    text-align: center;
+    color: #fff;
+}
+p {
+    color: #333;
+}
+.row1{
+    margin-top: 0;
+}
+
+.button1 {
+    background-color: rgb(44, 94, 170);
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 4px;
+    border-radius: 410px;
+    margin-left: 44%;
+    margin-bottom: 10%;
+
+  }
+  /* Features section */
+  .feature-box {
+    text-align: center;
+    padding: 10% 20%;
+}
+.first-words{
+    color: #fff;
+    font-size: 80px;
+}
+#leftbox {
+    float:left; 
+    background: #ffffff;
+    width:25%;
+    height:280px;
+}
+#middlebox{
+    float:left; 
+    background: #ffffff;
+    width:50%;
+    height:280px;
+}
+#rightbox{
+    float:right;
+    background: #ffffff;
+    width:25%;
+    height:280px;
+}
+h1{
+    color: #111;
+    text-align:center;
+}   
+.first{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 120px;
+    
+} 
+.second{
+    position: absolute;
+    top: 1460px;
+    left: 570px;
+    margin-right: 40px;
+}
+.top-box {
+    margin-right: 50%;
+}
+.left-tag {
+    float:left; 
+    background: #ffffff;
+    width:45%;
+    height:280px;
+}
+.right-tag{
+    float:right;
+    background: #ffffff;
+    width:45%;
+    height:280px;
+    margin-right: 20px;
+}
+.third-btn {
+    border-radius: 410px;
+    border: 2px solid #ffffff;
+    padding: 10px 40px;
+    width: 200px;
+    height: 500px;
+    background-color: rgb(241, 241, 241); 
+  }
